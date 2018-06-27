@@ -14,7 +14,7 @@ var boyOhBoyPath string
 
 var _ = BeforeSuite(func() {
 	var err error
-	boyOhBoyPath, err = gexec.Build("github.com/williammartin/boyohboy")
+	boyOhBoyPath, err = gexec.Build("github.com/williammartin/bob")
 	Expect(err).NotTo(HaveOccurred())
 })
 
