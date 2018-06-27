@@ -1,4 +1,0 @@
-image: cfgarden/garden-ci-ubuntu
-bind: $GOPATH/src/github.com/williammartin/bob
-command: go run $GOPATH/src/github.com/williammartin/bob/main.go
-test: ginkgo -r $GOPATH/src/github.com/williammartin/bob
